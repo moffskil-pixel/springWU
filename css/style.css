@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+header{
+    height: 150px;
+    background-color: rgb(50, 111, 79);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+nav{
+    height: 50px;
+    background-color: rgb(108, 160, 112);
+    display:flex;
+    justify-content: space-around;
+}
+.top main{
+    height: 80vh;
+    width: 80%;
+    margin:auto;
+    background-color:rgb(234, 234, 234);
+}
+.bottom main{
+    height:60vh;
+    width: 80%;
+    margin:auto;
+    background-color: rgb(234, 234, 234);
+}
+footer{
+    height: 50px;
+}
