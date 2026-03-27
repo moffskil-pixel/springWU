@@ -4,17 +4,18 @@ body{
 }
 header{
     height: 150px;
-    background-color: rgb(50, 111, 79);
+    background-color: rgb(82, 137, 82);
     display:flex;
     justify-content: center;
     align-items: center;
     color:white;
 }
 nav{
-    height: 50px;
-    background-color: rgb(108, 160, 112);
+    height: 70px;
+    background-color: rgb(108, 177, 108);
     display:flex;
     justify-content: space-around;
+    text-align: center;
 }
 .TopMain{
     height: auto;
@@ -41,6 +42,20 @@ img{
     grid-template-columns:
     1fr 1fr ;
 }
+.ac1{
+    background-color:rgb(108, 177, 108);
+}
+.ac2{
+    background-color: rgb(108, 177, 108);
+}
+h3{
+    justify-items: center;
+    display:inline-block;
+    padding: 5px 10px; 
+    background-color: rgb(227, 229, 107);
+    border-radius: 5px;
+}
+
 .BottomMain h2{
     font-size: medium;
     text-align: center;
